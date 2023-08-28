@@ -28,11 +28,60 @@
 		{
 			"name": "New Request Copy",
 			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/albums/64ec5e39aa6665c5dcb61e95",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"albums",
+						"64ec5e39aa6665c5dcb61e95"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Nevermind v2.0\",\r\n    \"artist\": \"Nirvana\",\r\n    \"price\": 70\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/albums/64ec5e39aa6665c5dcb61e95",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"albums",
+						"64ec5e39aa6665c5dcb61e95"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Nevermind\",\r\n    \"artist\": \"Nirvana\",\r\n    \"id\": \"4\",\r\n    \"price\": 70\r\n}",
+					"raw": "{\r\n    \"title\": \"Nevermind\",\r\n    \"artist\": \"Nirvana\",\r\n    \"price\": 70\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
